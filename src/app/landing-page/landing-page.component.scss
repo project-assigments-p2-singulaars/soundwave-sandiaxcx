@@ -1,3 +1,4 @@
+
 :host {
     // @include background;
     // @include fontStyles;
@@ -10,6 +11,7 @@
     justify-content: center;
     font-family: 'Poppins';
     color:white;
+    overflow: hidden;
 }
 
 .mainContent{
@@ -24,6 +26,10 @@
         }
 
         .mainText{
+            display: flex;
+            flex-direction: column;
+            gap:1.7rem;
+            
             .bigText{
                 font-size: 2.5rem;
             }
@@ -51,22 +57,26 @@
 .backCircles{
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: relative;
 
     .circleOne{
-        width: 20rem;
-        height: 20rem;
+        width: 23rem;
+        height: 23rem;
         border-radius: 50%;
         background-color: #bc3a801a;
-        top: 10vh; left: 10vw; 
+        bottom: 3rem;
+        left: -63rem;
+        position: absolute;
     }
     .circleTwo{
-        width: 20rem;
-        height: 20rem;
+        width: 23rem;
+        height: 23rem;
         border-radius: 50%;
         background-color: #3457b21a;
-        margin-top: 2rem;
+        bottom: 13rem;
+        left: -40rem;
         z-index: 0;
+        position: absolute;
     }
     .circleThree{
         width: 40rem;
@@ -74,6 +84,9 @@
         border-radius: 50%;
         background-color: #3457b21a;
         z-index: 0;
+        right: -35rem;
+        bottom: -20rem;
+        position: absolute;
     }
 }
 
@@ -89,6 +102,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 65vw;
+        margin-left: auto;
+        margin-right: auto;
 
         img{
             display: none;

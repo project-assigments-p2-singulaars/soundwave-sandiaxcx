@@ -9,15 +9,24 @@
     align-items: center;
     position: sticky;
     position: absolute;
-    width: 98vw;
-    height: 10vh;
+    width: 100vw;
+    height: 8vh;
 
         p{
             font-weight: bold;
+            cursor: pointer;
         }
 }
 
 .twitterContainer, .fbContainer{
     display: flex;
     flex-direction: row ;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.groupLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }

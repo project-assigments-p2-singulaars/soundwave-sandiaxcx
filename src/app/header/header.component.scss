@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 header{
-    background-color: #2F303A;
+    // background-color: #2F303A;
     color: white;
     font-family: 'Poppins';  
     // display: grid;
@@ -23,8 +23,13 @@ header{
     .logo{
         // grid-column-start: 2;
         display: flex;
+        align-items: center;
         gap: 1rem;
         margin-top: 1rem;
+
+        p{
+            font-size: 1.1rem;;
+        }
 
         img{
             width: 3rem;
@@ -35,7 +40,10 @@ header{
     .headerLinks{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
         gap: 2rem;
+        font-size: 1rem;
             
             a{
                 // grid-column-start: 4;

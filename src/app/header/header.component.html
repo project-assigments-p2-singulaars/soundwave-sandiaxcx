@@ -1,2 +1,10 @@
-<header><a routerLink="/home"><div class="logo"><img src="../../assets/logo.png" alt="Logo image"><p>Soundwave</p></div></a>
-<div class="headerLinks"><a routerLink="/discover">Discover</a><a routerLink="/join">Join</a></div></header>
+<header>
+  <div class="logo">
+      <a [routerLink]="['/home']"><img src="../../assets/logo.png" alt="Logo image"/></a>
+      <a [routerLink]="['/home']"><p>Soundwave</p></a>
+  </div>
+  <div class="headerLinks">
+    <a [routerLink]="['/discover']">Discover</a>
+    <a [routerLink]="['/join']">Join</a>
+  </div>
+</header>
