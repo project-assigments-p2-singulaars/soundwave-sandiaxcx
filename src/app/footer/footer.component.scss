@@ -1,0 +1,23 @@
+:host{
+    background-color: #202027;
+    color: white;
+    font-family: 'Poppins';  
+    // display: grid;
+    // grid-template-columns: 15, 1fr;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    position: absolute;
+    width: 98vw;
+    height: 10vh;
+
+        p{
+            font-weight: bold;
+        }
+}
+
+.twitterContainer, .fbContainer{
+    display: flex;
+    flex-direction: row ;
+}

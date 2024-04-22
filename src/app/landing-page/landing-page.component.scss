@@ -1,0 +1,106 @@
+:host {
+    // @include background;
+    // @include fontStyles;
+    background-color: #2F303A;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    font-family: 'Poppins';
+    color:white;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    width: 100%;
+
+        img{
+            width: 20rem;
+        }
+
+        .mainText{
+            .bigText{
+                font-size: 2.5rem;
+            }
+            
+            button {
+                // @include button;
+                background-color: #1762A7;
+                color: white;
+                font-family: 'Poppins';
+                font-size: 0.6rem;
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                border-radius: 6px;
+                border: none;
+            }
+            button:hover{
+                background-color: #2180d8;
+            }
+            button:focus{
+                background-color: #2796ff;
+            }
+        }
+}
+
+.backCircles{
+    display: flex;
+    flex-direction: row;
+
+    z-index: 0;
+    .circleOne{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        background-color: #bc3a801a;
+        margin-bottom: 19rem;
+    }
+    .circleTwo{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        background-color: #3457b21a;
+        margin-top: 2rem;
+    }
+    .circleThree{
+        width: 40rem;
+        height: 40rem;
+        border-radius: 50%;
+        background-color: #3457b21a;
+        right:-50rem;
+        bottom: -28rem;
+    }
+}
+
+
+@media(max-width:500px){
+    :host{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            display: none;
+        }
+    }
+
+    .mainText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+}

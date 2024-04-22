@@ -1,0 +1,109 @@
+:host{
+        // @include background;
+        background-color: #2F303A;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        font-family: 'Poppins';
+        // @include fontStyles;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    .textContainer{
+        display: flex;
+        flex-direction: row;
+        font-size: 4rem;
+        font-family: 'Poppins';
+
+        .fun{
+            color: #b9216b;
+        }
+    }
+
+    form{
+        background-color: #202027;
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        border-radius: 2rem;
+
+        label{
+            text-align: start;
+        }
+
+        input{
+            background-color: #202027;
+            border-color: #1762A7;
+            border-style: solid 1 #1762A7;
+        }
+
+        .submit{
+        background-color: #1762A7;
+        color: white;
+        font-family: 'Poppins';
+            :hover{
+            background-color: #2180d8;
+        }
+            :focus{
+            background-color: #2796ff;
+        }
+        }
+    }
+}
+
+// .backCircles{
+//     display: flex;
+//     flex-direction: row;
+//     width: 100vw;
+//     z-index: 0;
+//     .circleOne{
+//         width: 20rem;
+//         height: 20rem;
+//         border-radius: 50%;
+//         background-color: #bc3a801a;
+//         margin-bottom: 19rem;
+//     }
+//     .circleTwo{
+//         width: 20rem;
+//         height: 20rem;
+//         border-radius: 50%;
+//         background-color: #3457b21a;
+//         margin-top: 2rem;
+//     }
+// }
+
+
+@media(max-width:500px){
+    :host{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .textContainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: start;
+        }
+    }
+
+}
