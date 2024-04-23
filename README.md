@@ -32,7 +32,7 @@ BONUS-TRACK: Unit testing of components.
 5. Open your browser and navigate to http://localhost:4200 to view the website locally.
 
 ## Link
-[Mockup](https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/46391d6c-b766-4ed3-a121-72c9b2a15960.pdf)
-[Trello](https://trello.com/b/QV4moE7s/soundwave)
-[Github](https://github.com/project-assigments-p2-singulaars/soundwave-sandiaxcx)
-[Deploy](https://soundwave-sandiax.netlify.app/)
+- [Mockup](https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/46391d6c-b766-4ed3-a121-72c9b2a15960.pdf)
+- [Trello](https://trello.com/b/QV4moE7s/soundwave)
+- [Github](https://github.com/project-assigments-p2-singulaars/soundwave-sandiaxcx)
+- [Deploy](https://soundwave-sandiax.netlify.app/)
