@@ -20,23 +20,23 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-@mixin fontStyles {
-    font-size: 1.2rem;
-    font-family: 'Poppins';
-}
+// @mixin fontStyles {
+//     font-size: 1.2rem;
+//     font-family: 'Poppins';
+// }
 
-@mixin background{
-    background-color: #2F303A;
-}
+// @mixin background{
+//     background-color: #2F303A;
+// }
 
-@mixin button{
-    background-color: #1762A7;
-    color: white;
-    font-family: 'Poppins';
-    button:hover{
-        background-color: #2180d8;
-    }
-    button:focus{
-        background-color: #2796ff;
-    }
-}
+// @mixin button{
+//     background-color: #1762A7;
+//     color: white;
+//     font-family: 'Poppins';
+//     button:hover{
+//         background-color: #2180d8;
+//     }
+//     button:focus{
+//         background-color: #2796ff;
+//     }
+// }
