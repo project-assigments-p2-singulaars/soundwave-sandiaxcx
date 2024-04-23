@@ -16,9 +16,16 @@
         flex-direction: row;
         gap: 2rem;
 
-        .discoverText{
-                font-size: 2.5rem;
+        .leftContainer{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1rem;
         }
+
+                .discoverText{
+                        font-size: 2.5rem;
+                }
 
         .iconsContainer{
                 display: flex;
@@ -52,13 +59,6 @@
         .coversImage{
                 width: 20rem;
         }
-}
-
-.leftContainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
 }
 
 app-footer{
